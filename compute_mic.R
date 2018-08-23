@@ -157,7 +157,7 @@ get_mic <- function(df, group_keys = NA, min_value = 3L, is_flat = TRUE){
   #' @description
   #' Utility function to call get_mic_df and get_group_mic_df
   #' When you set group_keys, get_group_mic_df will be executed.
-  #' Withour group_keys, get_mic_df will be executed.
+  #' Without group_keys, get_mic_df will be executed.
 
   if(is.na(group_keys)){
     out <- get_mic_df(df, is_flat)
